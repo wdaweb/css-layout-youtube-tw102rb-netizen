@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            /* 左、中、右物件分開對齊 */
+            align-items: center;
+            /* 垂直置中 */
+            height: 60px;
+            padding: 0 20px;
+            border-bottom: 1px solid #e5e5e5;
+            font-size: larger;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            width: 80vw;
+            height: 100vh;
+            float: right;
+            background: lightblue;
+
+            .top {}
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" header">
+        <div class="logo">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-brands fa-youtube" style="color: red;">YouTube</i>
+        </div>
+        <div class="searchbar">
+            <input type="text" placeholder="  搜尋" style="border-radius:20px; height: 40px;" size="30">
+        </div>
+        <div class="photo">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+    </div>
+    <div class="container">
+        <div class="top">
+            <button>全部</button>
+            <button>音樂</button>
+            <button>電影</button>
+            <button>Podcast</button>
+            <button>直播中</button>
+        </div>
+        <div class="content">
+
+        </div>
+    </div>
+
+    <div class="sidebar"></div>
+
+
+</body>
+
+</html>
